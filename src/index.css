@@ -1,0 +1,82 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+button {
+  border: none;
+  padding: 11px;
+  background: #ED6964;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+
+}
+
+.hurry {
+  color: #ED6964;
+}
+
+.timer {
+  font-size: 72px;
+  text-align: center;
+  color: #ED6964;
+  margin: 0;
+}
+
+.seconds {
+  color:black;
+  font-size: 30px;
+}
+
+.title {
+  text-align: center;
+}
+
+.counter-wrap {
+  text-align: center;
+  padding: 5px; 
+  border-radius: 20px;
+}
+
+.counter-num {
+  color: #6495ED
+
+}
+
+.basket-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.basket {
+  height: 300px;
+  width: 300px;
+}
+
+.receiver {
+  height: 300px;
+  width: 300px;
+}
+
+
+
+.modal {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  text-align: center;
+  height: 20%;
+  width: 50%;
+  background: lightgrey;
+  border-radius: 30px;
+
+  padding: 10px;
+}
