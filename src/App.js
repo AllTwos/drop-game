@@ -7,7 +7,7 @@ function App() {
   const initState = {
     count: 0,
     time: 20,
-    limit: 15,
+    limit: 10,
     endWinModal: false,
   };
   const [count, setCount] = useState(initState.count);
